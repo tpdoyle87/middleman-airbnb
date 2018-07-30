@@ -7,15 +7,15 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="stylesheets/application-5557b823.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-5557b823.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="http://lewagon.com" class="navbar-wagon-brand" target="_blank">
-    <img src="images/logo-acc9c0ec.png" alt="Logo" />
+    <img src="../images/logo-acc9c0ec.png" alt="Logo" />
   </a>
 
   <!-- Right Navigation -->
@@ -29,7 +29,7 @@
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
-        <img src="images/Thomas1-d4133edd.jpg" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <img src="../images/Thomas1-d4133edd.jpg" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
@@ -53,35 +53,37 @@
   </div>
 </div>
 
-    <div class="container">
-  <div class="row">
-      <ul class="list-inline text-center">
-          <div class="col-xs-12 col-md-4">
-            <li class="users"><img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" width="200" alt="Ssaunier" />
-              <h3> Sébastien Saunier </h3>
-            </li>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <li class="users"><img src="https://kitt.lewagon.com/placeholder/users/Papillard" class="img-circle" width="200" alt="Papillard" />
-              <h3> Boris Paillard </h3>
-            </li>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <li class="users"><img src="https://kitt.lewagon.com/placeholder/users/alessinkovec" class="img-circle" width="200" alt="Alessinkovec" />
-              <h3> Aleš Šinkovec </h3>
-            </li>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <li class="users"><img src="https://kitt.lewagon.com/placeholder/users/fassousa" class="img-circle" width="200" alt="Fassousa" />
-              <h3> Faggner Sousa </h3>
-            </li>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <li class="users"><img src="https://kitt.lewagon.com/placeholder/users/tpdoyle87" class="img-circle" width="200" alt="Tpdoyle87" />
-              <h3> Thomas Doyle-Engler </h3>
-            </li>
-          </div>
-      </ul>
+    
+<!-- Inject flat data in template -->
+
+<div class="banner-small" style='background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url("https://kitt.lewagon.com/placeholder/cities/tokyo"); background-size: cover; height: 50vh; background-position: center;'>
+</div>
+<div class="container">
+  <div class="info">
+    <div class="img-circle avatar picture-line text-center">
+      <img src="https://kitt.lewagon.com/placeholder/users/hiutwig" class="img-circle avatar" alt="Hiutwig" />
+      <p>hiutwig</p>
+    </div>
+    <div class="flat-info">
+      <h1>Small flat in Tokyo</h1>
+      <p>Tokyo, Japan</p>
+    </div>
+  </div>
+  <div class="form-spot">
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Email">
+        </div>
+        <a href="../index.html" class="btn btn-primary">Press MEEE!</a>
+      </div>
+    </form>
   </div>
 </div>
 
