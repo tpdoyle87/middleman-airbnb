@@ -1,0 +1,35 @@
+.avatar {
+  width: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  margin: 15px 10px;
+}
+
+.picture-line {
+  p {
+    font-size: 19px;
+    display: inline-block;
+    color: $darkblue;
+
+  }
+}
+
+.flat-info {
+  padding-left: 15px;
+  h1 {
+    font-size: 21px;
+    color: $darkblue
+  }
+
+  p {
+  font-size: 16px;
+  color: $darkblue
+  }
+}
