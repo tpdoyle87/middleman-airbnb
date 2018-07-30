@@ -4,4 +4,20 @@
   background-size: cover;
   align-items: center;
   justify-content: center;
+  filter: opacity(60%) !important;
+}
+
+.banner {
+  h1 {
+    color: $red;
+  }
+  p {
+    color: $orange
+  }
+  a {
+    color: $gray;
+  }
+  a:hover {
+    background-color: $bluegreen;
+  }
 }
