@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+      <ul class="list-inline text-center">
+        <% data.users.each do |user| %>
+          <div class="col-xs-12 col-md-4">
+            <li class="users"><%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: 'img-circle', width: 200 %>
+              <h3> <%= user.name %> </h3>
+            </li>
+          </div>
+        <% end %>
+      </ul>
+  </div>
+</div>
